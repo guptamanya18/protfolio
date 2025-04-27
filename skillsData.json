@@ -5,19 +5,11 @@
       "progress": 85
     },
     {
-      "name": "Image Processing",
+      "name": "Natural Language Processing",
       "progress": 90
     },
     {
       "name": "Model Training",
-      "progress": 85
-    },
-    {
-      "name": "ML Research",
-      "progress": 90
-    },
-    {
-      "name": "Model Architecture Design",
       "progress": 85
     },
     {
@@ -31,10 +23,6 @@
     {
       "name": "Statistics",
       "progress": 85
-    },
-    {
-      "name": "3D Modeling",
-      "progress": 80
     }
   ]
 }
