@@ -1,21 +1,32 @@
 [
     {
-    "title": "Project A.C.E.",
-    "description": "A.C.E is an AI-powered accident detection system designed to monitor and alert authorities in real-time. By analyzing sensor data and visual inputs, it swiftly identifies accidents, triggering immediate notifications to ensure timely responses and enhanced safety.",
+    "title": "VisEraseNet",
+    "description": "VisEraseNet introduces a multimodal deep learning framework that intelligently detects, segments, and removes unwanted logos, texts, and objects from images and videos — achieving high-quality, context-aware restorations without artifacts.",
     "imgUrl": " ",
-    "link": " "
+    "link": "https://github.com/guptamanya18/VisEraseNet-1.0"
   },
-  
   {
     "title": "Project RoboCam",
     "description": "RoboCam is an advanced robotic surevillance system designed for automation and security. It integrates AI and robotics to perform surveillance, threat detection, and response, ensuring enhanced safety and efficiency in various environments.",
     "imgUrl": " ",
-    "link": " "
+    "link": "https://github.com/guptamanya18/RoboCam"
   },
   {
     "title": "Murphy Systum",
     "description": "A comprehensive Medical Diagnosis System that includes multiple disease detection modules using Machine Learning and Deep Learning models. The system currently supports: ✅ Brain Tumor Detection ✅ Breast Cancer Classification ✅ General Disease Prediction based on symptoms",
     "imgUrl": " ",
-    "link": " "
+    "link": "https://github.com/guptamanya18/Murphy-Systum"
+  },
+  {
+    "title": "Cell Center Performance",
+    "description": " ",
+    "imgUrl": " ",
+    "link": "https://github.com/guptamanya18/Call-Center-Performance"
+  },
+  {
+    "title": "Revenue Insights of Hospital Domain",
+    "description": " ",
+    "imgUrl": " ",
+    "link": "https://github.com/guptamanya18/Revenue-Insights-in-hospitality-domain"
   }
 ]
