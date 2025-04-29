@@ -9,19 +9,19 @@
       "progress": 90
     },
     {
-      "name": "Model Training",
-      "progress": 85
+      "name": "ML Model and Architecture",
+      "progress": 80
     },
     {
-      "name": "Object Detection",
-      "progress": 95
+      "name": "Natural Language Processing",
+      "progress": 80
     },
     {
       "name": "Data Analysis",
       "progress": 85
     },
     {
-      "name": "Statistics",
+      "name": "Data Understanding & Managment",
       "progress": 85
     }
   ]
