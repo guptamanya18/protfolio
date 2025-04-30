@@ -1,0 +1,25 @@
+{
+  "skills": [
+    {
+      "name": "Python Development",
+      "progress": 85
+    },
+    {
+      "name": "Natural Language Processing",
+      "progress": 90
+    },
+    {
+      "name": "ML Model and Architecture",
+      "progress": 80
+    },
+    
+    {
+      "name": "Data Analysis",
+      "progress": 85
+    },
+    {
+      "name": "Data Understanding & Managment",
+      "progress": 85
+    }
+  ]
+}
