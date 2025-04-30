@@ -1,105 +1,68 @@
-# 📄 Personal Portfolio Website
-
-Welcome to my personal portfolio!  
-This website showcases my skills, projects, and experiences as a developer.
-
-🚀 **Live Website**: [guptamanya18.github.io/protfolio](https://guptamanya18.github.io/protfolio/)
 
 ---
 
-## 📌 Features
+# JSON File Editing and Cloudinary Asset Upload Guide
 
-- ✨ Clean and modern UI/UX
-- 🚀 Responsive design (Mobile, Tablet, Desktop)
-- 🛠️ Tech Stack showcase
-- 🧩 Dynamic project section
-- 📬 Contact form / Contact information
-- 🌐 Social media integration
+This guide provides step-by-step instructions on how to **edit JSON files** and upload assets to **Cloudinary** for a seamless integration.
+
+## Instructions
+
+### 1. **Editing JSON Files**
+
+The following fields need to be edited directly in the JSON files:
+
+- **Description**: Directly edit the description text as per your requirement.
+- **Title**: Directly edit the title text to reflect the appropriate title for the item.
+- **img_url**: For images, use a **Cloudinary link** (see the Cloudinary upload instructions below).
+- **link_url**: 
+  - If the link is a **website**, add the direct URL.
+  - If the link is for a **folder, PDF, image, or document**, upload the asset to Cloudinary (follow the steps below) and use the generated link.
+
+### 2. **Cloudinary Link Upload Instructions**
+
+To upload images, PDFs, videos, or any other assets to Cloudinary, follow these steps:
+
+1. **Sign in to Cloudinary:**
+   - Go to [Cloudinary Console](https://cloudinary.com/) and **sign in** with your email.
+
+2. **Upload Asset:**
+   - Navigate to the **Assets** section.
+   - Find the **Desired Folder** where you want to upload the asset, or create a new folder if necessary.
+   - Click **Upload** and select the image, PDF, video, or other assets you wish to upload.
+
+3. **Copy Cloudinary Link:**
+   - Once the file is uploaded, click on the **three dots** (options) next to the uploaded file.
+   - Click **Copy URL** to get the Cloudinary URL of the uploaded asset.
+
+### 3. **Image Size Requirements**
+
+For images:
+- **Image dimensions must be** `518px * 380px`.
+- After uploading your image to Cloudinary, it will need to be resized to the correct dimensions. You can use **Microsoft Paint** or any image editing tool to resize the image to `518px` width and `380px` height.
+
+### 4. **Final Steps**
+
+Once you have edited the necessary fields in the JSON file:
+- **Save** your changes.
+- **Commit** and push the updated JSON file to your repository if needed.
 
 ---
 
-## 🛠️ Built With
+## Example JSON Structure
 
-- **React.js** ⚛️
-- **JavaScript (ES6+)**
-- **HTML5** & **CSS3**
-- **Bootstrap / TailwindCSS** (if used)
-- **React Hooks** for state management
-- **EmailJS** or other contact form services (if used)
+Here's an example of how the JSON data should look after editing:
 
-## 🔥 How to Run Locally
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/guptamanya18/protfolio.git
-
-# 2. Go into the project directory
-cd protfolio
-
-# 3. Install dependencies
-npm install
-
-# 4. Run the development server
-npm start
+```json
+{
+  "title": "Item Title",
+  "description": "This is a brief description of the item.",
+  "img_url": "https://res.cloudinary.com/your-cloud-name/image/upload/v1610395950/example_image.jpg",
+  "link_url": "https://example.com/your-link"
+}
 ```
 
-The app will run at `http://localhost:3000`.
-
----
-
-## 📂 Folder Structure
-
-```bash
-protfolio/
-│
-├── public/
-│   ├── index.html
-│   └── assets/
-│
-├── src/
-│   ├── components/  # Reusable components (Navbar, Banner, About, Projects, Contact)
-│   ├── assets/      # Images, logos
-│   ├── App.js
-│   └── index.js
-│
-├── package.json
-└── README.md
-```
-
----
-
-## 🙌 Acknowledgements
-
-- Thanks to open-source libraries and tools that made this project possible.
-- Inspired by beautiful portfolios across the web!
-
----
-
-## 📬 Contact
-
-- **Name:** Manya Gupta
-- **LinkedIn:** [linkedin.com/in/manya-gupta]([https://linkedin.com/in/manya-gupta](https://www.linkedin.com/in/manya-gupta-6971b024a/)) *(Update if needed)*
-- **Email:** manya.mg.gupta@gmail.com *(Update if needed)*
-
----
-
-## ⭐️ If you like this project
-
-- Star this repository 🌟
-- Fork it 🍴
-- Share it 📢
-
----
-
-# 🧠 Future Enhancements
-
-- Add project filtering by categories.
-- Dark/Light mode toggle.
-- Improve SEO optimization.
-- Add animations and transitions.
-
----
-
-**Crafted with ❤️ by Manya Gupta.**
+### Notes:
+- Ensure that the **Cloudinary image links** are correctly copied.
+- Always double-check the **image size** after editing in **Paint** to ensure it meets the required `518px * 380px` dimensions.
 
 ---
