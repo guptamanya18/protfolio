@@ -64,5 +64,7 @@ Here's an example of how the JSON data should look after editing:
 ### Notes:
 - Ensure that the **Cloudinary image links** are correctly copied.
 - Always double-check the **image size** after editing in **Paint** to ensure it meets the required `518px * 380px` dimensions.
+- Paste the Whole json to the ChatGpt to cross-verify the fomating of the json becuase a single coma `(,)` will effect the whole website and it will be crash.
+- If still website crash and want to add a new feture contact on the mail [Enail-Id](mailto:rathoreatri@gmail.com). 
 
 ---
